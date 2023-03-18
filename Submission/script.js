@@ -104,3 +104,6 @@ const couponsPartC = [
 ];
 
 // Loop over the couponsPartC array to add the discount property name
+for (const coupon of couponsPartC) {
+  coupon.expired = coupon.expiresAt > new Date().getTime();
+}
