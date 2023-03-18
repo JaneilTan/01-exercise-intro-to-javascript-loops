@@ -32,13 +32,13 @@ coupon1.expired = coupon1.expiresAt > new Date().getTime();
 // Add the expired property to the other three coupons below
 // use the same value for the expired property in the example above
 const coupon2 = couponsPartA[1];
-coupon1.expired = coupon2.expiresAt > new Date().getTime();
+coupon2.expired = coupon2.expiresAt > new Date().getTime();
 
 const coupon3 = couponsPartA[2];
-coupon1.expired = coupon3.expiresAt > new Date().getTime();
+coupon3.expired = coupon3.expiresAt > new Date().getTime();
 
 const coupon4 = couponsPartA[3];
-coupon1.expired = coupon4.expiresAt > new Date().getTime();
+coupon4.expired = coupon4.expiresAt > new Date().getTime();
 
 
 // Part B - For loop
